@@ -5,9 +5,10 @@
         display: flex;
         margin: 0px auto;
         background: #0bb5f4;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: row;
         flex-flow: wrap;
+        flex-basis: 33.3%;
     }
 
 .my-profile{
@@ -19,6 +20,7 @@
     border: 5px;
     flex-grow: 1;
     flex-shrink: 0;
+    height: 100%;
 }
 
 .name, .duty{
@@ -42,9 +44,11 @@
     display: flex;
     border-color: aliceblue;
     border: 5px solid aliceblue;
-    width: 10%;
-    height: 10%;
     margin-bottom: 30px;
+    float:left;
+    width:75%;
+    height:280px;
+            
 }
 
 .faisal-image:hover{
@@ -53,10 +57,14 @@
 }
 .contact-info{
     flex-direction: column;
-    padding-left: 650px;
+    margin-right: 50px;
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    float:left; 
+                width:50%;
+                height:280px;
+            
     
 }
 .social {
@@ -67,9 +75,19 @@
     color: rgb(53, 170, 170);
     font-size: xx-large;
     padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+.el-faisal{
+    height: auto;
+    width: auto;
+    object-fit: cover;
+
+}
+
 .para-1{
-    color: rgb(14, 47, 47);
+    color: #20d1b4;
     font-size: x-large;
     font-family: cursive;
     padding-left: 20px;
@@ -90,8 +108,6 @@
     overflow-x: auto;
     flex-flow: column;
   }
-  
-
   
   .container td,  .container th {
     border: 1px solid #ddd;
@@ -134,6 +150,6 @@
 .split-div{
     flex-basis: 33.3%;
     justify-content: space-evenly;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 50px;
 }
