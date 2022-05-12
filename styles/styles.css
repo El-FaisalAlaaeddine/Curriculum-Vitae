@@ -19,10 +19,14 @@
     border: 5px;
     flex-grow: 1;
     flex-shrink: 0;
-
 }
 
 .name, .duty{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+.linkedin{
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -53,8 +57,9 @@
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    
 }
-.social, {
+.social {
     color: aliceblue;
 }
 
@@ -76,11 +81,17 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
   }
   .container {
-      margin-top: 30px;
+    margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    flex-wrap: wrap;
+    min-height: .01%;
+    overflow-x: auto;
+    flex-flow: column;
   }
+  
+
   
   .container td,  .container th {
     border: 1px solid #ddd;
@@ -113,4 +124,16 @@
 .my-bio{
     font-size: larger;
     padding-left: 2%;
+}
+.last-container{
+    background-color: powderblue;
+    display: flex ;
+    width: 100%;
+    height: 150px;
+}
+.split-div{
+    flex-basis: 33.3%;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-top: 50px;
 }
