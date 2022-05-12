@@ -1,0 +1,99 @@
+
+.portfolio{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: 0px auto;
+        background: #0bb5f4;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+.my-profile{
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    min-height: 33.33vh;
+    border: 5px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+.name, .duty{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.faisal-image{
+    /*set the image to center */
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;    
+    /* modify the image to make it a bit more round */
+    border-radius: 10%;
+    display: flex;
+    border-color: aliceblue;
+    border: 5px solid aliceblue;
+    width: 10%;
+    height: 10%;
+    margin-bottom: 30px;
+}
+
+.faisal-image:hover{
+ /* the opacity of the image shall be reduced upon draging the mouse to it */
+    opacity: 0.3;
+}
+.contact-info{
+    flex-direction: column;
+    padding-left: 650px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social{
+    color: aliceblue;
+}
+
+.about-me{
+    color: rgb(53, 170, 170);
+    font-size: xx-large;
+    padding-left: 10px;
+}
+.para-1{
+    color: rgb(14, 47, 47);
+    font-size: x-large;
+    font-family: cursive;
+    padding-left: 20px;
+
+}
+hr {
+    margin-top: 30px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+  }
+  .container {
+      margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .container td,  .container th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+    
+  .container tr:hover {background-color: #ddd;}
+  
+  .container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2081d1;
+    color: white;
+  }
